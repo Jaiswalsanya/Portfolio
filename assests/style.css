@@ -1,57 +1,66 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     overflow-x: hidden;
-   
+
 }
-.toggle-effect{
+
+.toggle-effect {
     overflow-y: hidden;
 }
-.home_page{
-    background: linear-gradient(rgba(70,10,37,.5),rgba(17,14,159,.6)),url(/assests/photos/background_photo.webp);
-   
+
+.home_page {
+    background: linear-gradient(rgba(70, 10, 37, .5), rgba(17, 14, 159, .6)), url(/assests/photos/background_photo.webp);
+
     background-position: center;
     background-size: cover;
     height: 80vh;
     background-repeat: no-repeat;
-    
+
 }
-.navbar_header{
+
+.navbar_header {
     padding: 20px;
 }
 
-.logo_design{
+.logo_design {
     color: white;
     font-size: 30px;
     font-weight: 900;
     font-family: ui-sans-serif;
 }
-.menubar{
+
+.menubar {
     width: 100%;
-    justify-content:end;
+    justify-content: end;
     align-items: center;
 }
-.fix_header{
+
+.fix_header {
     background-color: #0c041d4f;
     position: fixed;
     z-index: 999;
     transition: all 1s ease-in-out;
     width: 100%;
     height: 85px;
- 
+
 }
-.menubar_list{
+
+.menubar_list {
     padding: 0px 30px 0px 30px;
-   
+
 }
-.menubar_list>a{
+
+.menubar_list>a {
     color: white;
     font-weight: 600;
     font-size: 13px;
 }
+
 .nav-toggle {
     background-color: transparent;
     border: none;
@@ -64,39 +73,46 @@ body{
     margin-right: -45px;
     display: none;
 }
-.collapse-toggle{
+
+.collapse-toggle {
     flex-basis: 100%;
     position: relative;
 }
-.home_page_content{
-   padding: 100px 0;
+
+.home_page_content {
+    padding: 100px 0;
 }
-.content_header>h1{
+
+.content_header>h1 {
     text-align: center;
     font-size: 45px;
     color: #f1eaf0;
     font-weight: 700;
 
 }
-.content_quote{
+
+.content_quote {
     margin-top: 20px;
     margin-bottom: 10px;
 }
-.content_quote>p{
+
+.content_quote>p {
     text-align: center;
     color: aqua;
     font-size: 21px;
     font-weight: 500;
 }
-.content_button{
+
+.content_button {
     margin-left: auto;
     margin-right: auto;
     display: flex;
     margin-top: 20px;
-    margin-bottom:10px ;
-   
+    margin-bottom: 10px;
+
 }
-.content_button>button{
+
+.content_button>button {
     background-color: #d9b730;
     padding: 5px 20px 5px 20px;
     text-align: center;
@@ -105,32 +121,37 @@ body{
     color: #f9f6f1;
     font-size: 18px;
 }
-.about_container{
+
+.about_container {
     margin: 35px;
 }
-.about_image1>img{
+
+.about_image1>img {
     width: 100%;
     height: 566px;
     border-radius: 10px;
     margin-top: 50px;
 }
 
-.about_header>h1{
+.about_header>h1 {
     text-align: center;
     color: black;
     font-weight: 700;
     font-size: 48px;
     font-family: ui-sans-serif;
 }
+
 .bio_container {
     margin-top: 50px;
     margin-left: 25px;
 }
-.bio_header>h1{
+
+.bio_header>h1 {
     font-size: 50px;
     margin-bottom: 15px;
 }
-.bio_content>p{
+
+.bio_content>p {
     width: 100%;
     text-align: justify;
     font-size: 14px;
@@ -139,18 +160,21 @@ body{
 .progress_data {
     margin-bottom: 13px;
 }
-.progress{
+
+.progress {
     height: 9px;
     font-size: 10px;
 }
-.container_button{
+
+.container_button {
     display: flex;
     align-items: center;
     flex-direction: row;
     gap: 48px;
     margin-top: 34px;
 }
-.hire_button>button{
+
+.hire_button>button {
     background-color: blue;
     border-radius: 25px;
     border: none;
@@ -158,23 +182,27 @@ body{
     width: 115px;
     height: 32px;
 }
-.download_button>button{
+
+.download_button>button {
     background-color: gray;
 }
-.services{
+
+.services {
     margin: 74px 40px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.services_header>h1{
+
+.services_header>h1 {
     margin-bottom: 34px;
     text-align: center;
     font-family: ui-sans-serif;
     font-weight: 900;
     font-size: 48px;
 }
-.service_box{
+
+.service_box {
     background-color: #d9d1d1;
     height: auto;
     padding: 14px;
@@ -182,83 +210,98 @@ body{
     box-shadow: 0px 0px 6px 1px #9a85;
     border-radius: 10px;
 }
-.service_box_header>h1{
+
+.service_box_header>h1 {
     font-size: 32px;
     font-weight: 500;
 }
-.service_tech_header{
+
+.service_tech_header {
     margin: 10px 0px 40px 0px;
 }
-.service_tech_header>h2{
+
+.service_tech_header>h2 {
     margin: 50px;
     text-align: center;
     font-size: 40px;
 }
-.image1{
+
+.image1 {
     margin: auto;
     display: flex;
     flex-direction: column;
     width: 80px;
 }
-.image1>p{
+
+.image1>p {
     text-align: center;
 }
-.resume{
+
+.resume {
     margin: 35px 40px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.resume_image>img{
+
+.resume_image>img {
     width: 85%;
     height: 424px;
 }
 
-.resume_header>h1{
+.resume_header>h1 {
     margin-bottom: 34px;
     text-align: center;
     font-family: ui-sans-serif;
     font-weight: 900;
     font-size: 48px;
 }
-.work_experience_header>h1{
+
+.work_experience_header>h1 {
     font-size: 32px;
     margin: 10px 0px;
 }
-.experience_container{
+
+.experience_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.company_detail{
+
+.company_detail {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 25px;
 
 }
-.contact{
+
+.contact {
     margin: 35px 40px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.contact_header>h1{
+
+.contact_header>h1 {
     margin-bottom: 34px;
     text-align: center;
     font-family: ui-sans-serif;
     font-weight: 900;
     font-size: 48px;
 }
+
 .contact_form {
     margin: 33px 100px;
 }
-label{
+
+label {
     font-size: 20px;
     color: gray;
-    
+
 }
-input{
+
+input {
     margin: 5px 0px 20px;
     border-top: none;
     border-left: none;
@@ -266,7 +309,8 @@ input{
     width: 92%;
     outline: none;
 }
-textarea{
+
+textarea {
     margin: 5px 0px 20px;
     border-top: none;
     border-left: none;
@@ -274,7 +318,8 @@ textarea{
     width: 92%;
     outline: none;
 }
-.contact_button{
+
+.contact_button {
     border-radius: 20px;
     background-color: #70d670a6;
     outline: none;
@@ -283,27 +328,27 @@ textarea{
     height: 37px;
     color: white;
 }
-.contact_info>h1{
+
+.contact_info>h1 {
     font-size: 25px;
     text-align: center;
 }
-.contact_list{
+
+.contact_list {
     margin: 30px;
 }
-.contact_list>ul{
+
+.contact_list>ul {
     list-style: none;
 }
-.contact_list>ul>li>a{
+
+.contact_list>ul>li>a {
     margin-left: 12px;
     color: darkseagreen;
     text-decoration: none;
 }
-.icons{
+
+.icons {
     color: darkseagreen;
-   
+
 }
-
-
-
-
-
